@@ -26,7 +26,7 @@ return <View style={styles.container}>
             <Text style={styles.okButtontext}>Tudo bem</Text>
         </RectButton>
 
-    </View>
+    </View >
 }
 
 export default GiveClasses;
