@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     title:{
-        fontFamily:'archivo_700Bold',
+        
         color: '#fff',
         fontSize: 32,
         lineHeight:37,
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     okButtontext:{
         color: '#fff',
         fontSize: 16,
-        fontFamily: 'archivo_700Bold'
+        
     },
   
 });

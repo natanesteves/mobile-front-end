@@ -15,7 +15,8 @@ function GiveClasses(){
         goBack();
     }
 
-return <View style={styles.container}>
+return( <View style={styles.container}>
+    
         <ImageBackground source={giveclassesBgimage} style={styles.content}>
 
             <Text style={styles.title}>quer ser um prof</Text>
@@ -27,6 +28,7 @@ return <View style={styles.container}>
         </RectButton>
 
     </View >
+);
 }
 
 export default GiveClasses;

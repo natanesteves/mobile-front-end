@@ -16,14 +16,14 @@ const styles = StyleSheet.create({
     },
 
     title:{
-        fontFamily: 'Archivo_400Regular',
+       
         color:'#fff',
         fontSize:20,
         lineHeight:30,
         marginTop:80,
     },
     titleBold:{
-        fontFamily: 'Poppins_600SemiBold'
+       
     },
 
     buttonsContainer:{
@@ -48,11 +48,11 @@ const styles = StyleSheet.create({
     },
 
     buttonText:{
-        fontFamily:'Archivo_700Bold',
+       
         color:'#fff'
     },
     Connections:{
-        fontFamily: 'Poppins_400Regular',
+       
         color:'#d4c2ff',
         fontSize:12,
         lineHeight:20,
