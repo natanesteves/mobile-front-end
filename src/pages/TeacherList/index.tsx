@@ -2,13 +2,14 @@ import PageHeader from '../../components/PageHeader';
 import React from 'react';
 
 
-import { View, Image, Text } from 'react-native';
+import { View, Image, Text, ScrollView } from 'react-native';
 
 import backIcon from '../../assets/images/icons/back.png';
 import logoimg from '../../assets/images/logo.png';
 
 import styles from './styles';
 import {  BorderlessButton, RectButton } from 'react-native-gesture-handler';
+import TeacherItem from '../../components/TeacherItem';
 
 function TeacherList(){
 
@@ -20,9 +21,10 @@ function TeacherList(){
          
           
                  <PageHeader title="Profs "/>
-        
-     
-     
+     <ScrollView>   
+     <TeacherItem/>
+     <TeacherItem/><TeacherItem/><TeacherItem/><TeacherItem/><TeacherItem/>
+     </ScrollView>
     </View>
     );
 }
