@@ -65,7 +65,18 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         marginRight: 8,
-    },
+
+     },
+
+     favorited:{
+         backgroundColor: '#e33d3d',
+         width:56,
+        height:56,
+        borderRadius:8,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginRight: 8,
+     },
     contactButton:{
         backgroundColor:'#04d361',
         flex:1,

@@ -1,5 +1,6 @@
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
+import { ReactNode } from 'react';
 import { View, Image, Text } from 'react-native';
 import { BorderlessButton } from 'react-native-gesture-handler';
 
@@ -11,11 +12,11 @@ import styles from './styles';
 
 interface PageHeaderProps{
     title: string;
-
+    headerRigth: ReactNode;
 }
 
 
-const PageHeader: React.FC<PageHeaderProps>= ({ title}) =>{
+const PageHeader: React.FC<PageHeaderProps>= ({ title ,headerRigth,children}) =>{
 
     const {navigate} = useNavigation();
 
@@ -31,7 +32,12 @@ const PageHeader: React.FC<PageHeaderProps>= ({ title}) =>{
                     </BorderlessButton>
                 <Image source={logoimg} resizeMode="contain"/>
             </View>
+            <View style={styles.header}>
             <Text style={styles.title}>{title}</Text>
+
+            {headerRigth}
+            </View>
+            {children}
         </View>
     );
 }

@@ -5,7 +5,53 @@ const styles =  StyleSheet.create({
         flex:1,
         backgroundColor:'#f0f0f7'
     },
+    teacherlist:{
+       marginTop: -60,
+       padding:16, 
+    },
+    searchform:{
+        marginBottom:24,
+    },
+    label:{
+        color:'#d4c2ff',
+        
+    },
+    input:{
+        height: 54,
+        backgroundColor: '#fff',
+        borderRadius:8,
+        justifyContent: 'center',
+        paddingHorizontal: 16,
+        marginTop:4,
+        marginBottom:16,
+        },
+    inputgroup:{
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+    },
+    inputblock:{
+        width:'48%'
+
+    },
+
+    submitButton:{
+        backgroundColor:'#04d361',
+       
+        height:56,
+        borderRadius:8,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+       
+    },
+    submitButtonText:{
+        color:'#fff',
+        fontSize:16,
+    },
+
     
 })
 
 export default styles;
+
+//40min
